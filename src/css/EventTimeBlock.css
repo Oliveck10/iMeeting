@@ -1,0 +1,40 @@
+.time-block {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.no-line-break {
+  white-space: nowrap;
+}
+
+.weekday {
+    background: #EFEFEF;
+}
+
+.slot {
+    padding: 1px;
+    margin: 1px;
+}
+
+td.space-at-right {
+    border-right: 5px solid transparent;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.time-table {
+  border-collapse: separate;
+  empty-cells: hide;
+}
+
+tr.spaceUnder {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
